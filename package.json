@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "pequeño bot de discord, para tareas en el servidor de lunar gaming station.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Snow",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/sqlite": "^4.0.6",
+    "discord.js": "^14.24.0",
+    "dotenv": "^17.2.3",
+    "keyv": "^5.5.3",
+    "luxon": "^3.7.2"
+  },
+  "overrides": {
+    "tar": "^7.5.7",
+    "undici": "^6.23.0"
+  }
+}
